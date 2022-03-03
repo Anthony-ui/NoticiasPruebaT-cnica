@@ -1,0 +1,75 @@
+﻿
+@{
+    ViewData["Title"] = "Noticias";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+      <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="card" data-aos="fade-up" style="margin-bottom:5vh">
+                <div class="card-body">
+                  <div class="aboutus-wrapper">
+                    <h1 class="mt-5 text-center mb-5">
+                      Noticias
+                    </h1>
+                    <div class="row">
+                      <div class="col-lg-12 mb-5 mb-sm-2">
+                        <form enctype="multipart/form-data">
+
+                         <input  class="form-control  mb-3" id="archivo" name="archivo" type="file"/>
+
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <div class="form-group">
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  id="titulo"
+                                  name="titulo"
+                                  aria-describedby="name"
+                                  placeholder="Titular"
+
+                                />
+                              </div>
+                            </div>
+                          </div>
+
+                           <div class="row">
+                            <div class="col-sm-12">
+                              <div class="form-group">
+                                <textarea
+                                  class="form-control textarea"
+                                  placeholder="Cuerpo de la Noticia"
+                                  id="noticia"
+                                  name="noticia"
+                                ></textarea>
+                              </div>
+                            </div>
+                          </div>
+
+                        </form>
+                        
+                          <div class="row text-center">
+                         
+                              <div class="form-group">
+                                <button
+ 
+                                  class="btn btn-lg btn-dark font-weight-bold mt-3 guardar"
+                                  >Guardar</button
+                                >
+                              </div>
+                            
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+<script src="~/js/regitrar.js" defer></script>
